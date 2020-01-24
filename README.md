@@ -16,20 +16,20 @@ https://github.com/dwyl/english-words
 
 Commands:
   
-  --help
-  description:
-  prints a description of how to use the program.  This is also the default behavior of the script if you don't use any arguments
-  
-  --make <optional sample size argument>
-  description:
-  creates an unlabed sample of words from the dictionary called "sample.txt".  Will not run if this file already exists.  The
-  default sample size is 500, but you can set your own sample as well.
-  
-  --estimate <optional argument for delimiter>
+  --help  
+  description:  
+  prints a description of how to use the program.  This is also the default behavior of the script if you don't use any arguments  
+    
+  --make <optional sample size argument>  
+  description:  
+  creates an unlabed sample of words from the dictionary called "sample.txt".  Will not run if this file already exists.  The  
+  default sample size is 500, but you can set your own sample as well.  
+    
+  --estimate <optional argument for delimiter>  
   you should add labels to the sample.txt file before using this.  By default, my script assumes you separate a word and its label
   with a space.  But if you hate that and want to use some other character, you can do that and then give the delimiter you used as
   a command line argument.  Since the input is split based on the delimiter, don't use a delimiter that will be in the words or the
   script won't work right.
-  
-  --clean
-  If you wanted a more verbose was of typing 'rm sample.txt' then you can use this.
+    
+  --clean  
+  If you wanted a more verbose was of typing 'rm sample.txt' then you can use this.  

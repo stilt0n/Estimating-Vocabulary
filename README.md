@@ -1,19 +1,19 @@
 # Estimating-Vocabulary
-Some scripts to estimate how many English words I know  
-  
+Some scripts to estimate how many English words I know
+
 ## About program
-This is a Python script to estimate how much vocabulary you know.  You can run it from the command line using command line arguments.  
-The script can be used to take a random sample of words from the dictionary and put them into a .txt file.  From here you will need  
-to manually edit the .txt file.  Mark each word you know with a 1 and each word you don't know with a 0.  Separate the words from  
-their labels using a space.  
-  
-Once your .txt file is labeled, you can then use it to estimate how many total English words you know.  I'll probably make a front-end for  
-this script in React in a few days so you don't need to deal with a .txt file.  But I needed to make it quickly, so there is currently  
-no front-end (it's for a class).  
-  
-The dictionary I am using is from here:  
+This is a Python script to estimate how much vocabulary you know.  You can run it from the command line using command line arguments.
+The script can be used to take a random sample of words from the dictionary and put them into a .txt file.  From here you will need
+to manually edit the .txt file.  Mark each word you know with a 1 and each word you don't know with a 0.  Separate the words from
+their labels using a space.
+
+Once your .txt file is labeled, you can then use it to estimate how many total English words you know.  I'll probably make a front-end for
+this script in React in a few days so you don't need to deal with a .txt file.  But I needed to make it quickly, so there is currently
+no front-end (it's for a class).
+
+The dictionary I am using is from here: 
 https://github.com/dwyl/english-words  
-  
+
 ### Commands:
   
   --help  

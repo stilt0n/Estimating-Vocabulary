@@ -14,7 +14,7 @@ no front-end (it's for a class).
 The dictionary I am using is from here:
 https://github.com/dwyl/english-words
 
-Commands:
+### Commands:
   
   --help  
   description:  
